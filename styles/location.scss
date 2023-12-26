@@ -1,0 +1,30 @@
+.location{
+  padding: 30px 0;
+  text-align: center;
+  &__title{
+    color: #0B132A;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  &__subtitle{
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin: 20px 0 100px;
+    &-vpn{
+      color: #4F5665;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px;
+    }
+  }
+  &__img{
+    width: 100%;
+  }
+}

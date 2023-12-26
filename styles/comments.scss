@@ -1,0 +1,139 @@
+.comments{
+  text-align: center;
+  &__content{
+
+    padding: 30px 0 30px 270px;
+    align-items: center;
+  }
+  &__title{
+
+
+    color: #0B132A;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  &__subtitle{
+
+
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin: 20px 0 50px;
+  }
+  &__list{
+    display: flex;
+    column-gap: 50px;
+
+  }
+  &__item3{
+    border-radius: 10px 0 0 10px;
+    border-top: 2px solid #DDD;
+    border-left: 2px solid #DDD;
+    border-bottom: 2px solid #DDD;
+
+    width: 440px;
+
+    padding: 30px;
+  }
+  &__item{
+    border-radius: 10px;
+    border: 2px solid #DDD;
+
+    width: 440px;
+
+    padding: 30px;
+
+    &-text{
+      color: #0B132A;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+
+      text-align: left;
+    }
+
+    &-top{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-info{
+        display: flex;
+        column-gap: 15px;
+        align-items: center;
+        &-text{
+          display: flex;
+          flex-direction: column;
+          row-gap: 5px;
+        }
+        &-name{
+          color: #0B132A;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px;
+        }
+        &-country{
+          color: #4F5665;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+        }
+      }
+      &-rating{
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+      }
+
+    }
+  }
+  &__navigation{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left{
+      display: flex;
+      column-gap: 15px;
+
+    }
+    &-right{
+      display: flex;
+      column-gap: 20px;
+    }
+    &-rectangle{
+      border-radius: 10px;
+      background: #F53838;
+      width: 40px;
+      height: 17px;
+      border: none;
+    }
+    &-circle{
+      border-radius: 50%;
+      background: #DDE0E4;
+      width: 17px;
+      height: 17px;
+    }
+    &-btn{
+      &-left{
+        background: transparent;
+        border-radius: 50%;
+        padding: 12px;
+        border: 1px solid #F53838;;
+      }
+      &-right{
+        background: #F53838;
+        border-radius: 50%;
+        padding: 12px;
+        border: 1px solid #F53838;;
+      }
+    }
+  }
+}

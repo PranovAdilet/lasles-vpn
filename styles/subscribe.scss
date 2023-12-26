@@ -1,0 +1,44 @@
+.subscribe{
+  position: relative;
+
+  padding: 60px 0;
+  background: linear-gradient(to bottom, transparent 50%,  #F8F8F8 50%);
+  &__content{
+    width: 100%;
+    border-radius: 10px;
+    background: #FFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 58px 70px;
+  }
+  &__title{
+    color: #0B132A;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  &__subtitle{
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &__btn{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+
+    padding: 17px 55px;
+
+    border-radius: 10px;
+    background: #F53838;
+    border: none;
+  }
+}

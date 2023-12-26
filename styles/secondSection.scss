@@ -1,0 +1,45 @@
+.secondSection{
+  padding: 20px 0;
+  &__content{
+    display: flex;
+    justify-content: center;
+    column-gap: 170px;
+  }
+  &__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    &-title{
+      color: #0B132A;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 50px;
+    }
+    &-info{
+      color: #4F5665;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      margin: 23px 0 20px;
+    }
+    &-text{
+      color: #4F5665;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    &-block{
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+    }
+    &-list{
+      display: flex;
+      flex-direction: column;
+      row-gap: 21px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+  list-style-type: none;
+
+}
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.icon{
+  font-size: 20px;
+  color: #F53838;
+}
+
+
+
+@import "firstSection";
+@import "header";
+@import "secondSection";
+@import "plan";
+@import "location";
+@import "comments";
+@import "subscribe";
+@import "footer";
+

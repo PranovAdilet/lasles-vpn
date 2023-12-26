@@ -1,0 +1,104 @@
+.firstSection{
+  width: 100%;
+  padding: 50px 0;
+  &__top{
+    display: flex;
+  }
+  &__left{
+    &-title{
+      color: #0B132A;
+      font-size: 47px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 70px;
+      &-vpn{
+        color: #0B132A;
+        font-size: 47px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+      }
+    }
+    &-info{
+      color: #4F5665;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      margin: 20px 0 50px;
+      &-vpn{
+        color: #4F5665;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+      }
+    }
+    &-btn{
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px;
+
+      border-radius: 10px;
+      background: #F53838;
+      padding: 17px 50px;
+      border: none;
+    }
+  }
+  &__bottom{
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 110px;
+
+    border-radius: 10px;
+    background: #FFF;
+
+    margin: 70px 0;
+    padding: 37px 0;
+
+    &-line{
+      height: 80px;
+      width: 1px;
+      border: 1px solid #EEEFF2;
+      stroke: #EEEFF2;
+    }
+    &-block{
+      display: flex;
+      align-items: center;
+      column-gap: 36px;
+      &-text{
+        color: #4F5665;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      &-count{
+        color: #0B132A;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+      }
+    }
+    &-background{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 0;
+      border-radius: 10px;
+      opacity: 0.06;
+      background: #0D1025;
+
+      filter: blur(57px);
+      z-index: -1;
+    }
+  }
+}

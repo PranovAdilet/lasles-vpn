@@ -1,0 +1,57 @@
+.header{
+  padding: 30px 0;
+  &__logo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    &-title{
+      color: #0B132A;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  &__content{
+    display: flex;
+    align-items: center;
+
+    column-gap: 152px;
+  }
+  &__nav{
+    display: flex;
+    column-gap: 40px;
+    &-item{
+      color: #4F5665;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  &__buttons{
+    display: flex;
+    column-gap: 30px;
+    &-signIn{
+      color: #0B132A;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border: none;
+      background: transparent;
+    }
+    &-signUp{
+      color: #F53855;
+      padding: 13px 45px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border-radius: 50px;
+      border: 1px solid #F53855;
+      background: transparent;
+    }
+  }
+
+}
