@@ -1,9 +1,15 @@
 .secondSection{
-  padding: 20px 0;
+  width: 100%;
+  padding: 1.2rem 0;
+  &__img{
+    width: 127%;
+
+  }
   &__content{
+    width: 100%;
     display: flex;
     justify-content: center;
-    column-gap: 170px;
+    column-gap: 10.6rem;
   }
   &__right{
     display: flex;
@@ -11,25 +17,25 @@
     justify-content: end;
     &-title{
       color: #0B132A;
-      font-size: 35px;
+      font-size: 2.2rem;
       font-style: normal;
       font-weight: 500;
-      line-height: 50px;
+      line-height: 3.1rem;
     }
     &-info{
       color: #4F5665;
-      font-size: 16px;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px;
-      margin: 23px 0 20px;
+      line-height: 1.9rem;
+      margin: 1.3rem 0 1.2rem;
     }
     &-text{
       color: #4F5665;
-      font-size: 14px;
+      font-size: 0.9rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px;
+      line-height: 1.9rem;
     }
     &-block{
       display: flex;
@@ -39,7 +45,7 @@
     &-list{
       display: flex;
       flex-direction: column;
-      row-gap: 21px;
+      row-gap: 1.2rem;
     }
   }
 }

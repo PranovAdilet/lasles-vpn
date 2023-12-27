@@ -3,8 +3,16 @@
   padding: 3.1rem 0;
   &__top{
     display: flex;
+    width: 100%;
+    column-gap: 2.6rem;
+  }
+  &__right{
+    &-img{
+      width: 120%;
+    }
   }
   &__left{
+    width: 60%;
     &-title{
       color: #0B132A;
       font-size: 3rem;
@@ -43,8 +51,10 @@
 
       border-radius: 10px;
       background: #F53838;
-      padding: 17px 50px;
+      padding: 1.1rem 3.1rem;
       border: none;
+
+      cursor: pointer;
     }
   }
   &__bottom{
@@ -54,7 +64,7 @@
 
     display: flex;
     justify-content: center;
-    column-gap: 110px;
+    column-gap: 6.9rem;
 
     border-radius: 10px;
     background: #FFF;

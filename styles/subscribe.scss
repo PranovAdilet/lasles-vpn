@@ -1,7 +1,7 @@
 .subscribe{
   position: relative;
 
-  padding: 60px 0;
+  padding: 3.9rem 0;
   background: linear-gradient(to bottom, transparent 50%,  #F8F8F8 50%);
   &__content{
     width: 100%;
@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 58px 70px;
+    padding: 3.7rem 4.3rem;
   }
   &__title{
     color: #0B132A;
@@ -29,16 +29,18 @@
     line-height: 1.9rem;
   }
   &__btn{
+    min-width: 198px;
     color: #FFF;
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: 1.7rem;
 
-    padding: 17px 55px;
+    padding: 1.1rem 3.4rem;
 
     border-radius: 10px;
     background: #F53838;
     border: none;
+    cursor:pointer;
   }
 }

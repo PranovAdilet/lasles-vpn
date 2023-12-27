@@ -8,28 +8,28 @@
   &__left{
     display: flex;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 1.4rem;
     &-info{
       color: #4F5665;
-      font-size: 16px;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px;
+      line-height: 1.9rem;
 
       max-width: 320px;
       width: auto;
 
       &-vpn{
         color: #4F5665;
-        font-size: 16px;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 500;
-        line-height: 30px;
+        line-height: 1.9rem;
       }
     }
     &-links{
       display: flex;
-      column-gap: 20px;
+      column-gap: 1.2rem;
     }
     &-link{
       border-radius: 50%;
@@ -39,16 +39,16 @@
     }
     &-text{
       color: #AFB5C0;
-      font-size: 16px;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px;
+      line-height: 1.9rem;
       &-vpn{
         color: #AFB5C0;
-        font-size: 16px;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 500;
-        line-height: 30px;
+        line-height: 1.9rem;
       }
     }
   }
@@ -65,17 +65,17 @@
     }
     &-title{
       color: #0B132A;
-      font-size: 18px;
+      font-size: 1.1rem;
       font-style: normal;
       font-weight: 500;
-      line-height: 30px;
+      line-height: 1.9rem;
     }
     &-item{
       color: #4F5665;
-      font-size: 16px;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px;
+      line-height: 1.9rem;
     }
   }
 }
