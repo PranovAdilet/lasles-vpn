@@ -9,19 +9,17 @@
 
 
     color: #0B132A;
-    font-size: 35px;
+    font-size: 2.1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 3.1rem;
   }
   &__subtitle{
-
-
     color: #4F5665;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.9rem;
 
     margin: 20px 0 50px;
   }
@@ -50,15 +48,17 @@
 
     &-text{
       color: #0B132A;
-      font-size: 16px;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px;
+      line-height: 1.9rem;
 
       text-align: left;
     }
 
     &-top{
+      text-align: left;
+
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -73,17 +73,17 @@
         }
         &-name{
           color: #0B132A;
-          font-size: 18px;
+          font-size: 1.1rem;
           font-style: normal;
           font-weight: 500;
-          line-height: 30px;
+          line-height: 1.9rem;
         }
         &-country{
           color: #4F5665;
-          font-size: 14px;
+          font-size: 0.9rem;
           font-style: normal;
           font-weight: 400;
-          line-height: 30px;
+          line-height: 1.9rem;
         }
       }
       &-rating{
@@ -125,13 +125,13 @@
       &-left{
         background: transparent;
         border-radius: 50%;
-        padding: 12px;
+        padding: 12px 15px;
         border: 1px solid #F53838;;
       }
       &-right{
         background: #F53838;
         border-radius: 50%;
-        padding: 12px;
+        padding: 12px 15px;
         border: 1px solid #F53838;;
       }
     }

@@ -6,7 +6,7 @@
     column-gap: 10px;
     &-title{
       color: #0B132A;
-      font-size: 20px;
+      font-size: 1.2rem;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -16,14 +16,14 @@
     display: flex;
     align-items: center;
 
-    column-gap: 152px;
+    column-gap: 9.5rem;
   }
   &__nav{
     display: flex;
-    column-gap: 40px;
+    column-gap: 2.3rem;
     &-item{
       color: #4F5665;
-      font-size: 16px;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -31,10 +31,10 @@
   }
   &__buttons{
     display: flex;
-    column-gap: 30px;
+    column-gap: 1.9rem;
     &-signIn{
       color: #0B132A;
-      font-size: 16px;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
@@ -43,8 +43,8 @@
     }
     &-signUp{
       color: #F53855;
-      padding: 13px 45px;
-      font-size: 16px;
+      padding: 0.8rem 2.9rem;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
