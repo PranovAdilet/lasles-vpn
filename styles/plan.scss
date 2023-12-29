@@ -25,7 +25,7 @@
     gap: 2.6rem;
   }
   &__box{
-
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,10 +59,22 @@
       align-items: center;
     }
     &-price3{
-      margin: 2.8rem 0 1.2rem !important;
+      color: #0B132A;
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.9rem;
+
+      margin: 2.8rem 0 1.2rem;
     }
     &-price2{
-      margin: 93px 0 1.2rem !important;
+      color: #0B132A;
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.9rem;
+
+      margin: 93px 0 1.2rem;
     }
     &-price{
       color: #0B132A;

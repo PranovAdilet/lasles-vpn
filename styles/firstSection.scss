@@ -1,6 +1,13 @@
 .firstSection{
   width: 100%;
-  padding: 3.1rem 0;
+  padding: 3.1rem 0 3.1rem;
+  &__icon{
+    font-size: 1.4rem;
+    background: #FFECEC;
+    border-radius: 50%;
+    padding: 0.8rem;
+    color: #F53838;
+  }
   &__top{
     display: flex;
     width: 100%;
