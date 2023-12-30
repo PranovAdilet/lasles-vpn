@@ -596,13 +596,6 @@
   }
 }
 
-
-@media screen and (max-width: 793px) {
-  *{
-    font-size: 12px;
-  }
-}
-
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   *{
     font-size: 15px;
@@ -615,5 +608,11 @@
   }
   .plan__box-price{
     margin: 10.27rem 0 1.2rem;
+  }
+}
+
+@media screen and (max-width: 793px) {
+  *{
+    font-size: 12px;
   }
 }
